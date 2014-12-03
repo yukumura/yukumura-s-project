@@ -1,0 +1,161 @@
+.header {
+    display: block;
+    margin: 30px auto 0 0;
+    text-align: center;
+}
+
+.header img {
+    /*position: relative;*/
+    bottom: 10px;
+    border-style: outset;
+}
+
+.nav {
+    position:absolute;
+    bottom:570px;
+    left: 70px;
+    }
+
+.nav li {
+    font-family: "Times	New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav ul {
+    position: relative;
+    list-style-type: none;
+    top: 200px;
+    left: 120px;
+    
+}
+
+.nav ul li {
+
+    background-image: url('http://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pentacle_3.svg/45px-Pentacle_3.svg.png');
+    background-repeat: no-repeat;
+    background-position: 15px 3px;
+    padding-left: 40px;
+    background-size: 20px 20px;
+    display: inline;
+}
+
+.titolo {
+    color: #A11111;
+    font-family: "Times	New Roman", Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: #1B1A1A;
+}
+
+/*#sidebar1 {
+    float:left;
+    width: 20%;
+    //padding-left: 1%;
+}
+
+#sidebar2 {
+    float:left;
+    width: 20%;
+    //padding-right: 1%;
+}
+*/
+
+
+#content {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+    
+#content p {
+    color: #D2D2D2;
+    text-align: justify;
+    font-family: "Times	New Roman", Times, serif;
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration: none; 
+    color: #D2D2D2;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #D2D2D2;
+}
+
+a:hover {
+    color: #A11111;
+}
+
+#form_registrazione {
+    color: #D2D2D2;
+     width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#form_autenticazione {
+    color: #D2D2D2;
+     width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.rces{
+    color: #D2D2D2;
+    text-align: justify;
+    font-family: "Times	New Roman", Times, serif;
+    font-size: 20px;
+}
+
+.rces h3{
+    color: #A11111;
+}
+
+#formattazione_testo{
+    color: #A11111;
+    font-family: "Times	New Roman", Times, serif;
+}
+
+#formattazione_testo p{
+    border-style:double;
+    border-color: #D2D2D2;
+    font-size: 15px;
+    text-align: center;
+}
+
+#formattazione_testo h4{
+    text-align: center;
+}
+
+#form_creature {
+    color: #D2D2D2;
+     width: 200px;
+    height: 200px;
+    /*margin: 0 auto;*/
+}
+
+.segnalibro {
+    color: #A11111;
+    font-family: "Times	New Roman", Times, serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+#lettere h1{
+    color: #A11111;
+}
+
+#form1 {
+    float: right;
+}
+
+#form2{
+    float:left;
+}
