@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-include('cuore.php');
+//include('cuore.php');
 ?>
 <html>
   

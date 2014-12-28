@@ -9,7 +9,7 @@
     <div id="formattazione_testo">
     <h4>
     <?php
-    include('cuore.php');
+    //include('cuore.php');
     
     $username=$_POST['username'];
     $pswd=$_POST['pswd'];

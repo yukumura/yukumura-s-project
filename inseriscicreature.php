@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
-    include('cuore.php');
+    //include('cuore.php');
 ?>
     <head>
         <meta charset="utf-8"/>

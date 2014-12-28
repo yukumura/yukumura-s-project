@@ -2,7 +2,7 @@
  <div id="formattazione_testo">
   <p>
   <?php
-  include('cuore.php');
+  //include('cuore.php');
   
   if(isset($_SESSION['username'])) {
 	echo "Bentornato, ".$_SESSION['username'];
