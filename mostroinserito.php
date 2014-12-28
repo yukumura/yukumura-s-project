@@ -45,16 +45,16 @@ include('database_connect.php');
             if($row['total']==1){
                 echo "Hai inserito tu un racconto con lo stesso nome <br>";
             //racconto già inserito dal nenno    
+                if (isset($_GET['id'])){
+                    $query="delete from creature where nome = '$_GET[id]'";
+                }
                 $query="update creature set descrizione = '$descrizione' where nome = '$titolo'";
                 $result = $mysqli->query($query);
                 $errore=2;
             }else{
-                echo "Non sei tu l'autore del racconto. <br>";
-                    $errore=1;
+                echo "non esiste nessun racconto con lo stesso nome <br>";
+                    $errore=0;
                 }
-    }else{
-        $errore=0;
-        echo "Fin qui nessun problema<br>";
     }
     
     if($errore==0){
@@ -80,10 +80,10 @@ include('database_connect.php');
         }
     }else if ($errore==2){
         echo "Modifica avvenuta con successo. <br><br>";
+    }
+        else{
+            echo "Inserimento non andato a buon fine. <br><br>";
         }
-            else{
-                echo "Inserimento non andato a buon fine. <br><br>";
-            }
     
     $mysqli->autocommit(true);
     $mysqli->close();
