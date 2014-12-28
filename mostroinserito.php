@@ -61,6 +61,7 @@ include('database_connect.php');
                 echo $_GET['id'];
                 if(isset($_GET['id'])){
                     $query="delete from creature where id ='$_GET[id]'";
+                    $result = $mysqli->query($query);
                     echo "cancellazione effettuata<br>";
                 }
     
