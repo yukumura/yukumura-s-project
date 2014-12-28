@@ -32,14 +32,14 @@ include('database_connect.php');
         //echo "Campi compilati<br>";
     
     
-    $query="SELECT COUNT(*) as total FROM creature WHERE nome='$titolo'";
+    $query="SELECT COUNT(*) as total FROM creature WHERE nome LIKE '$titolo'";
     $result = $mysqli->query($query);
     $row = $result->fetch_assoc();
 
     
     if($row['total']!=0){
         //echo "Esiste un racconto chiamato così <br>";
-        $query="SELECT COUNT(*) as total FROM creature WHERE nome='$titolo' and autore='$autore'";
+        $query="SELECT COUNT(*) as total FROM creature WHERE nome LIKE '$titolo' and autore='$autore'";
         $result = $mysqli->query($query);
         $row = $result->fetch_assoc();
             if($row['total']==1){
