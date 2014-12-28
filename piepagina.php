@@ -4,7 +4,7 @@
   <?php
   include('database_connect.php');
   
- 
+echo $_SESSION['username'];
  if(isset($_SESSION['username'])) {
 $query="SELECT inseriti FROM iscritti where username = '$_SESSION[username]'";
 $result = $mysqli->query($query);
