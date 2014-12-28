@@ -4,9 +4,7 @@
   <?php
   include('cuore.php');
   
-  $var= $_SESSION['username'];
-  
-  $query="SELECT inseriti FROM iscritti where username = '$var'";
+  $query="SELECT inseriti FROM iscritti where username = '$_SESSION[username]'";
   $result = $mysqli->query($query);
   $row = mysqli_fetch_row($result);
   
