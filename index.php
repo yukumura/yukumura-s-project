@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <?php
 //include('cuore.php');
-print_r($_SESSION);
-
 if (!isset($_SESSION)) {
       session_start();
       echo session_id();
     }else echo "sessione già aperta";
 include ('database_connect.php');
+
+print_r($_SESSION);
+
 ?>
 <html>
 
