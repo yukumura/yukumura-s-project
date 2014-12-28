@@ -47,7 +47,7 @@ $row = $result->fetch_assoc();
     }else echo "I dati da te inseriti non corrispondono a nessun utente registrato. Riprova.";
 
 }
-    header("refresh:3;url='home.php'");
+    header("refresh:10;url='index.php'");
     echo "<form><input type=\"button\" onclick=\"window.location='index.php'\" value=\"Ritorna alla Home\"></form>";
     $_SESSION['username']=$username;
     $mysqli->close();
