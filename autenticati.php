@@ -53,10 +53,6 @@ $row = $result->fetch_assoc();
     header("refresh:10;url='index.php'");
     echo "<form><input type=\"button\" onclick=\"window.location='index.php'\" value=\"Ritorna alla Home\"></form>";
     $mysqli->close();
-    $_SESSION['username']=$username;
-    echo "Session contiene: ";
-    echo $_SESSION['username'];
-
 ?>
 </h4>
 </div>
