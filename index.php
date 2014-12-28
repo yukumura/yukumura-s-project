@@ -3,6 +3,7 @@
 //include('cuore.php');
 if (!isset($_SESSION)) {
       session_start();
+      echo session_id();
     }else echo "sessione già aperta";
 include ('database_connect.php');
 ?>
