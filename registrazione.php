@@ -87,7 +87,7 @@ if($errore==0){
     exit();
     }
     
-    echo "Registrazione effettuata. Benvenuto/a $nome $cognome alias $username. Adesso puoi inserire le tue esperienze nella sezione apposita del sito.<br><br>";
+    echo "Registrazione effettuata. Benvenuto/a $nome $cognome alias $username. <br>Adesso puoi inserire le tue esperienze nella sezione apposita del sito.<br><br>";
 }else{
     echo "La registrazione non è andata a buon termine.<br><br>";
 }
