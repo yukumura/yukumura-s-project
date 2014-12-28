@@ -49,7 +49,7 @@ include('database_connect.php');
                 $result = $mysqli->query($query);
                 $errore=2;
             }else{
-                echo "Non sei tu l'autore del racconto.";
+                echo "Non sei tu l'autore del racconto. <br>";
                     $errore=1;
                 }
     }
