@@ -58,6 +58,7 @@ $row = $result->fetch_assoc();
     
     echo "Session contiene: ";
     echo $_SESSION['username'];
+    print_r($_SESSION);
 ?>
 </h4>
 </div>

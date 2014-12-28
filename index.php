@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <?php
 //include('cuore.php');
+print_r($_SESSION);
+
 if (!isset($_SESSION)) {
       session_start();
       echo session_id();

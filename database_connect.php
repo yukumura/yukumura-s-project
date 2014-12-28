@@ -1,4 +1,4 @@
-<?php
+<? php
 $ip = "localhost";
 $user = "cicilloniAlberto";
 $password = "scimmia454";
