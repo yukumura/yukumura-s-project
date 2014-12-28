@@ -7,7 +7,7 @@ if (!isset($_SESSION)) {
     }else echo "sessione già aperta";
 include ('database_connect.php');
 
-print_r($_SESSION);
+//print_r($_SESSION);
 
 ?>
 <html>
