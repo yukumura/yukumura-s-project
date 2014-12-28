@@ -9,7 +9,7 @@
     <div id="formattazione_testo">
     <h4>
     <?php
-    session_start();
+    include('cuore.php');
     include('database_connect.php');
     $errore=0;
     $username=$_POST['username'];
