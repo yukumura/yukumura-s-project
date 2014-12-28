@@ -99,7 +99,7 @@ if($errore==0){
 
     $mysqli->close();
 
-    header("refresh:3;url='home.php'");
+    header("refresh:10;url='home.php'");
     echo "<form><input type=\"button\" onclick=\"window.location='creature.php'\" value=\"Ritorna alla pagina\"></form>";
   
     //$query="SELECT nome, descrizione FROM creature";
