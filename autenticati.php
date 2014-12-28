@@ -43,7 +43,7 @@ $row = $result->fetch_assoc();
     
     $_SESSION['username']=$username;
     //echo $row['risultato']. " valore dell'id. <br>";
-	$_SESSION['userid'] = $userid;
+	$_SESSION['userid']=$userid;
     echo "Login effettuato. <br> Bentornato $username, adesso sei loggato nel sito e puoi accedere a tutti i servizi.<br><br>";
     }else echo "I dati da te inseriti non corrispondono a nessun utente registrato. Riprova.";
 
