@@ -100,7 +100,7 @@ if($errore==0){
 // chiudo la connessione a MySQL
 
     $mysqli->close();
-    header("refresh:3;url='index.php'");
+    header("refresh:10;url='index.php'");
     echo "<form><input type=\"button\" onclick=\"window.location='home.php'\" value=\"Ritorna alla Home\"></form>";
 ?>
 </h4>
