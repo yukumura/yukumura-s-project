@@ -45,11 +45,6 @@ include('database_connect.php');
             if($row['total']==1){
                 echo "Hai inserito tu un racconto con lo stesso nome <br>";
             //racconto già inserito dal nenno    
-                if (isset($_GET['id'])){
-                    $query="delete from creature where nome = '$_GET[id]'";
-                    $result = $mysqli->query($query);
-                }else echo "Nessun id trovato <br>";
-                
                 $query="update creature set descrizione = '$descrizione' where nome = '$titolo'";
                 $result = $mysqli->query($query);
                 $errore=2;
