@@ -2,7 +2,7 @@
  <div id="formattazione_testo">
   <p>
   <?php
-  //include('cuore.php');
+  include('database_connect.php');
   
  
  if(isset($_SESSION['username'])) {
