@@ -13,15 +13,7 @@
     
     $username=$_POST['username'];
     $pswd=$_POST['pswd'];
-    /*
-    $ip =  "0.0.0.0";
-    $port = "3306";
-    $user = "yukumura";
-    $db = "c9";
- 
-    $mysqli = new mysqli();
-    $mysqli->connect($ip, $user, '', $db);    
-*/
+    
 if($username=='' or $pswd== '' ){
 	echo "Compila tutti i campi!";
 	$errore=1;
