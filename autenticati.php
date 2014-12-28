@@ -50,7 +50,7 @@ $row = $result->fetch_assoc();
     $_SESSION['username']=$username;
     echo "Session contiene: ";
     echo $_SESSION['username'];
-    header("refresh:10;url='index.php'");
+    //header("refresh:10;url='index.php'");
     echo "<form><input type=\"button\" onclick=\"window.location='index.php'\" value=\"Ritorna alla Home\"></form>";
     $mysqli->close();
 
