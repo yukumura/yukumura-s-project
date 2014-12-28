@@ -6,7 +6,7 @@
   
   $query="SELECT inseriti FROM iscritti where username = '$_SESSION[username]'";
   $result = $mysqli->query($query);
-  $row = $mysqli->fetch_row($result);
+  $row = mysqli_fetch_row($result);
   
   if(isset($_SESSION['username'])) {
 	echo "Bentornato, ".$_SESSION['username'];
