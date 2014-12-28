@@ -75,9 +75,12 @@ include('database_connect.php');
             $result = $mysqli->query($query);
             echo "<br>Inserimento effettuato.<br><br>";
         }
-    }else{
-        echo "Inserimento non andato a buon fine. <br><br>";
-    }
+    }else if ($errore==2){
+        echo "Modifica avvenuta con successo. <br><br>";
+        }
+            else{
+                echo "Inserimento non andato a buon fine. <br><br>";
+            }
     
     $mysqli->autocommit(true);
     $mysqli->close();
