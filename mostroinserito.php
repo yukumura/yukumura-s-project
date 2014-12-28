@@ -38,10 +38,12 @@ include('database_connect.php');
     
     
     if($row['total']!=0){
+        echo "Esiste un racconto chiamato così <br>";
         $query="SELECT COUNT(*) as total FROM creature WHERE nome='$titolo' and autore='$autore'";
         $result = $mysqli->query($query);
         $row = $result->fetch_assoc();
             if($row['total']==1){
+                echo "Hai inserito tu un racconto con lo stesso nome <br>";
             //racconto già inserito dal nenno    
                 $query="update creature set descrizione = '$descrizione' where nome = '$titolo'";
                 $result = $mysqli->query($query);
