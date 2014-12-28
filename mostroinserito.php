@@ -28,17 +28,19 @@ include('database_connect.php');
    if($titolo=='' or $descrizione== ''){
 	echo "Compila tutti i campi!<br>";
 	$errore=1;
-    }else echo "Campi compilati";
+    }else echo "Campi compilati<br>";
     
     $query="SELECT COUNT(*) as total FROM creature WHERE nome='$titolo'";
     $result = $mysqli->query($query);
     $row = $result->fetch_assoc();
     if($row['total']!=0){
-        echo "Esiste già un racconto con questo titolo. Se l'hai scritto tu vai nella sezione creature per modificarlo.";
+        echo "Esiste già un racconto con questo titolo. Se l'hai scritto tu vai nella sezione creature per modificarlo.<br>";
         $errore=1;
-        }else echo "nessun racconto con lo stesso nome";
+        }else echo "nessun racconto con lo stesso nome<br>"
+        
+        ;
      
-         /*   $query="SELECT COUNT(*) as total FROM creature WHERE nome='$titolo' and autore='$autore'";
+         /* $query="SELECT COUNT(*) as total FROM creature WHERE nome='$titolo' and autore='$autore'";
             $result = $mysqli->query($query);
             $row = $result->fetch_assoc();
             
