@@ -57,7 +57,7 @@ if($errore==0){
     $mysqli->autocommit(false);
     
     $testoformattato=htmlentities($descrizione);
-    $titolo = $titolo." - ".$autore;
+    //$titolo = $titolo." - ".$autore;
     
     $query="INSERT INTO creature (nome, descrizione, autore)
     VALUES ('$titolo', '$testoformattato', '$autore')";
