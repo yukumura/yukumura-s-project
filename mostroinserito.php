@@ -49,8 +49,8 @@ include('database_connect.php');
                 $result = $mysqli->query($query);
                 $errore=2;
             }else{
-                echo "non esiste nessun racconto con lo stesso nome <br>";
-                    $errore=0;
+                echo "Non sei tu l'autore del racconto.";
+                    $errore=1;
                 }
     }
     
