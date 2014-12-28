@@ -4,7 +4,6 @@
   <?php
   include('database_connect.php');
   
-echo $_SESSION['username'];
  if(isset($_SESSION['username'])) {
 $query="SELECT inseriti FROM iscritti where username = '$_SESSION[username]'";
 $result = $mysqli->query($query);
@@ -17,6 +16,8 @@ echo "Ricordati di "; echo "<a href='logout.php'>sloggare</a>"; echo " quando ha
       echo "<a href='registrati.php'>Registrati</a>";
       echo " oppure ";
       echo "<a href='login.php'>loggati</a>.";
+      echo $_SESSION['username'];
+
       }
   ?>
   </p>
