@@ -1,13 +1,19 @@
   <?php  
-    //session_start();
-    
-    $ip =  "0.0.0.0";
-    $port = "3306";
-    $user = "cicilloniAlberto";
-    $pass = "scimmia454";
- 
-    $mysqli = new mysqli();
-    //$mysqli->set_charset("utf8");
-    $mysqli->connect($ip, $user, $pass,'');
 
+session_start();
+
+$ip = "localhost";
+$user = "cicilloniAlberto";
+$password = "scimmia454";
+$db = "amm14_cicilloniAlberto";
+$mysqli = new mysqli();
+$mysqli->connect($ip, $user, $password, $db);
+// verifico la presenza di errori
+if($mysqli->connect_errno!= 0){
+// gestione errore
+$idErrore= $mysqli->connect_errno;
+$msg= $mysqli->connect_error;
+error_log("Errore nella connessione al server $idErrore: $msg", 0);
+echo "Errore nella connessione $msg";
+}
 ?>
