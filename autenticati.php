@@ -11,9 +11,9 @@
     <?php
     include('database_connect.php');
     
-    /*$username=$_POST['username'];
+    $username=$_POST['username'];
     $pswd=$_POST['pswd'];
-    
+    /*
     $ip =  "0.0.0.0";
     $port = "3306";
     $user = "yukumura";
