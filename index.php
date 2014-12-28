@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <?php
 //include('cuore.php');
-session_start();
+if (!isset($_SESSION)) {
+      session_start();
+    }else echo "sessione già aperta";
 include ('database_connect.php');
 ?>
 <html>
