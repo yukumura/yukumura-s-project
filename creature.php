@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <?php
+include('cuore.php');
 include('database_connect.php');
 ?>
 <html>

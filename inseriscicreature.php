@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+    include('cuore.php');
     include('database_connect.php');
 ?>
     <head>
