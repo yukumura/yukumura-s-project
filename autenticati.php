@@ -10,7 +10,7 @@
     <h4>
     <?php
     include('database_connect.php');
-    
+    $errore=0;
     $username=$_POST['username'];
     $pswd=$_POST['pswd'];
     
