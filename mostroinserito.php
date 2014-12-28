@@ -49,9 +49,11 @@ include('database_connect.php');
                 $result = $mysqli->query($query);
                 $errore=2;
             }else{
-                echo "non esiste nessun racconto con lo stesso nome <br>";
-                    $errore=0;
+                echo "Non sei tu l'autore del racconto. <br>";
+                    $errore=1;
                 }
+    }else{
+        
     }
     
     if($errore==0){
@@ -77,10 +79,10 @@ include('database_connect.php');
         }
     }else if ($errore==2){
         echo "Modifica avvenuta con successo. <br><br>";
-    }
-        else{
-            echo "Inserimento non andato a buon fine. <br><br>";
         }
+            else{
+                echo "Inserimento non andato a buon fine. <br><br>";
+            }
     
     $mysqli->autocommit(true);
     $mysqli->close();
