@@ -42,11 +42,16 @@ include('database_connect.php');
         $row = $result->fetch_assoc();
         
             if($row['total']==1){
-        
+            //racconto già inserito dal nenno    
                 $query="update creature set descrizione = '$descrizione' where nome = '$titolo'";
                 $result = $mysqli->query($query);
                 $errore=2;
-                }else 
+                }else {
+                    echo "non esiste nessun racconto con lo stesso nome <br>";
+                    $errore=0;
+                }
+                
+                /*else 
                     if (isset($_GET['id'])){
     
                         echo "Cambiato il titolo, il tuo racconto sarà considerato come un nuovo articolo.<br>";
@@ -113,9 +118,9 @@ if($errore==0){
     $result = $mysqli->query($query);
     
     echo "<br>Inserimento effettuato.<br><br>";
-}else if ($errore==2){
+}/*else if ($errore==2){
     echo "<br>Modifica andata a buon fine.<br><br>";
-}else
+}*/else
     echo "Inserimento non andato a buon fine. <br><br>";
 
     $mysqli->autocommit(true);
