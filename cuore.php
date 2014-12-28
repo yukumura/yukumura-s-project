@@ -1,5 +1,5 @@
   <?php  
-    session_start();
+    //session_start();
     
     $ip =  "0.0.0.0";
     $port = "3306";
