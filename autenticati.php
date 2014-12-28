@@ -55,6 +55,9 @@ $row = $result->fetch_assoc();
     $mysqli->close();
     /*CLOSE THE SESSION WITH USER DATA*/
     session_write_close();
+    
+    echo "Session contiene: ";
+    echo $_SESSION['username'];
 ?>
 </h4>
 </div>
