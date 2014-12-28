@@ -44,7 +44,7 @@ include('database_connect.php');
         $row = $result->fetch_assoc();
             if($row['total']==1){
                 echo "Hai inserito tu un racconto con lo stesso nome <br>";
-            //racconto già inserito dal nenno    
+                //racconto già inserito dal nenno    
                 $query="update creature set descrizione = '$descrizione' where nome = '$titolo'";
                 $result = $mysqli->query($query);
                 $errore=2;
@@ -53,7 +53,8 @@ include('database_connect.php');
                     $errore=1;
                 }
     }else{
-        
+        $errore=0;
+        echo "Fin qui nessun problema<br>";
     }
     
     if($errore==0){
