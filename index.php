@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <?php
-include('cuore.php');
+//include('cuore.php');
+session_start();
+include ('database_connect.php');
 ?>
 <html>
 
