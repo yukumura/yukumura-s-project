@@ -56,6 +56,7 @@ include('database_connect.php');
     </div>
 <br><br><br>
 <?php
+print_r($_SESSION);
 include('piepagina.php');
 ?>
 	
