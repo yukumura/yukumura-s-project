@@ -41,7 +41,6 @@ $row = $result->fetch_assoc();
     $row = $result->fetch_assoc();
     $username = $row['risultato'];
     
-    $_SESSION['username']=$username;
     //echo $row['risultato']. " valore dell'id. <br>";
 	//$_SESSION['userid']=$userid;
     echo "Login effettuato. <br> Bentornato $username, adesso sei loggato nel sito e puoi accedere a tutti i servizi.<br><br>";
@@ -50,6 +49,7 @@ $row = $result->fetch_assoc();
 }
     header("refresh:3;url='home.php'");
     echo "<form><input type=\"button\" onclick=\"window.location='index.php'\" value=\"Ritorna alla Home\"></form>";
+    $_SESSION['username']=$username;
     $mysqli->close();
 
 ?>
