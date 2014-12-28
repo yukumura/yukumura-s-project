@@ -2,7 +2,7 @@
  <div id="formattazione_testo">
   <p>
   <?php
-  //include('database_connect.php');
+  include('database_connect.php');
   
  if(isset($_SESSION['username'])) {
 $query="SELECT inseriti FROM iscritti where username = '$_SESSION[username]'";
