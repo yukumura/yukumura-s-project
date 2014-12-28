@@ -45,8 +45,16 @@ include('database_connect.php');
             if($row['total']==1){
                 echo "Hai inserito tu un racconto con lo stesso nome <br>";
             //racconto già inserito dal nenno    
+                $mysqli->autocommit(false);
+                
                 $query="update creature set descrizione = '$descrizione' where nome = '$titolo'";
                 $result = $mysqli->query($query);
+                
+                if (!$mysqli->commit()) {
+                echo "Transazione fallita <br>";
+                exit();
+                }
+                
                 $errore=2;
             }else{
                 echo "Non sei tu l'autore del racconto. <br>";
