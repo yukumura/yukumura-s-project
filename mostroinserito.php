@@ -28,19 +28,29 @@ include('database_connect.php');
    if($titolo=='' or $descrizione== ''){
 	echo "Compila tutti i campi!<br>";
 	$errore=1;
-    }
+    }else echo "Campi compilati";
     
-    $query="SELECT COUNT(*) as total FROM creature WHERE nome='$titolo' and autore='$autore'";
+    $query="SELECT COUNT(*) as total FROM creature WHERE nome='$titolo'";
     $result = $mysqli->query($query);
     $row = $result->fetch_assoc();
+    if($row['total']!=0){
+        echo "Esiste già un racconto con questo titolo. Se l'hai scritto tu vai nella sezione creature per modificarlo.";
+        $errore=1;
+        }else echo "nessun racconto con lo stesso nome";
+     
+         /*   $query="SELECT COUNT(*) as total FROM creature WHERE nome='$titolo' and autore='$autore'";
+            $result = $mysqli->query($query);
+            $row = $result->fetch_assoc();
+            
+        }
     
-    if($row['total']==1){
+            if($row['total']==1){
         
-        $query="update creature set descrizione = '$descrizione' where nome = '$titolo'";
-        $result = $mysqli->query($query);
+            $query="update creature set descrizione = '$descrizione' where nome = '$titolo'";
+            $result = $mysqli->query($query);
     
-        $errore=2;
-    }else if (isset($_GET['id'])){
+            $errore=2;
+            }else if (isset($_GET['id'])){
     
     echo "Cambiato il titolo, il tuo racconto sarà considerato come un nuovo articolo.<br>";
     
@@ -49,9 +59,9 @@ include('database_connect.php');
     
     $errore=2;
     }else $errore=0;
-    
 
 
+*/
 if($errore==0){
 
     $mysqli->autocommit(false);
