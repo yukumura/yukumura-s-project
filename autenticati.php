@@ -11,7 +11,7 @@
     <?php
     include('database_connect.php');
     
-    $username=$_POST['username'];
+    /*$username=$_POST['username'];
     $pswd=$_POST['pswd'];
     
     $ip =  "0.0.0.0";
@@ -21,7 +21,7 @@
  
     $mysqli = new mysqli();
     $mysqli->connect($ip, $user, '', $db);    
-
+*/
 if($username=='' or $pswd== '' ){
 	echo "Compila tutti i campi!";
 	$errore=1;
