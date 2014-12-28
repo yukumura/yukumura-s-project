@@ -8,7 +8,7 @@
     $db = "c9";
  
     $mysqli = new mysqli();
-    $mysqli->set_charset("utf8");
+    //$mysqli->set_charset("utf8");
     $mysqli->connect($ip, $user, $pass, "");
 
 ?>
