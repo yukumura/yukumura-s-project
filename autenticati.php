@@ -49,17 +49,11 @@ $row = $result->fetch_assoc();
 
 }
     $_SESSION['username']=$username;
-    echo "Session contiene: ";
-    echo $_SESSION['username'];
     header("refresh:10;url='index.php'");
     echo "<form><input type=\"button\" onclick=\"window.location='index.php'\" value=\"Ritorna alla Home\"></form>";
     $mysqli->close();
     /*CLOSE THE SESSION WITH USER DATA*/
     session_write_close();
-    
-    echo "Session contiene: ";
-    echo $_SESSION['username'];
-    print_r($_SESSION);
 ?>
 </h4>
 </div>
