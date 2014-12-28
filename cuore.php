@@ -3,11 +3,11 @@
     
     $ip =  "0.0.0.0";
     $port = "3306";
-    $user = "yukumura";
-    $db = "c9";
+    $user = "cicilloniAlberto";
+    $pass = "scimmia454";
  
     $mysqli = new mysqli();
     $mysqli->set_charset("utf8");
-    $mysqli->connect($ip, $user, '', $db);
+    $mysqli->connect($ip, $user, $pass,'');
 
 ?>
