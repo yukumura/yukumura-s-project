@@ -47,6 +47,7 @@ include('database_connect.php');
             //racconto già inserito dal nenno    
                 if (isset($_GET['id'])){
                     $query="delete from creature where nome = '$_GET[id]'";
+                    $result = $mysqli->query($query);
                 }
                 $query="update creature set descrizione = '$descrizione' where nome = '$titolo'";
                 $result = $mysqli->query($query);
