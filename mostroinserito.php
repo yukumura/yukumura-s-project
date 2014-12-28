@@ -29,7 +29,7 @@ include('database_connect.php');
     	echo "Compila tutti i campi!<br>";
     	$errore=1;
     }else 
-        echo "Campi compilati<br>";
+        //echo "Campi compilati<br>";
     
     
     $query="SELECT COUNT(*) as total FROM creature WHERE nome='$titolo'";
@@ -38,31 +38,30 @@ include('database_connect.php');
 
     
     if($row['total']!=0){
-        echo "Esiste un racconto chiamato così <br>";
+        //echo "Esiste un racconto chiamato così <br>";
         $query="SELECT COUNT(*) as total FROM creature WHERE nome='$titolo' and autore='$autore'";
         $result = $mysqli->query($query);
         $row = $result->fetch_assoc();
             if($row['total']==1){
-                echo "Hai inserito tu un racconto con lo stesso nome <br>";
-                //racconto già inserito dal nenno    
+                //echo "Hai inserito tu un racconto con lo stesso nome <br>";
                 $query="update creature set descrizione = '$descrizione' where nome = '$titolo'";
                 $result = $mysqli->query($query);
                 $errore=2;
             }else{
-                echo "Non sei tu l'autore del racconto. <br>";
+                //echo "Non sei tu l'autore del racconto. <br>";
                     $errore=1;
                 }
     }else{
         $errore=0;
-        echo "Fin qui nessun problema<br>";
+        //echo "Fin qui nessun problema<br>";
     }
     
-                echo"<br>L'id e':";
-                echo $_GET['id'];
+                //echo"<br>L'id e':";
+                //echo $_GET['id'];
                 if(isset($_GET['id'])){
                     $query="delete from creature where id ='$_GET[id]'";
                     $result = $mysqli->query($query);
-                    echo "cancellazione effettuata<br>";
+                    //echo "cancellazione effettuata<br>";
                 }
     
     if($errore==0){
