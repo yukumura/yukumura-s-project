@@ -52,6 +52,9 @@ include('database_connect.php');
                 echo "Non sei tu l'autore del racconto. <br>";
                     $errore=1;
                 }
+    }else{
+        $errore=0;
+        echo "Fin qui nessun problema<br>";
     }
     
     if($errore==0){
