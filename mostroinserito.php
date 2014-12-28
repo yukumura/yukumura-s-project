@@ -57,7 +57,8 @@ include('database_connect.php');
         echo "Fin qui nessun problema<br>";
     }
     
-    echo $_GET['id'];
+                echo"<br>L'id e':";
+                echo $_GET['id'];
                 if(isset($_GET['id'])){
                     $query="delete from creature where nome ='$_GET[id]'";
                     echo "cancellazione effettuata<br>";
