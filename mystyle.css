@@ -159,3 +159,10 @@ a:hover {
 #form2{
     float:left;
 }
+
+.prog {
+    color: #D2D2D2;
+    text-align: justify;
+    font-family: "Times	New Roman", Times, serif;
+    font-size: 20px
+}

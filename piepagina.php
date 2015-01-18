@@ -19,6 +19,7 @@ echo "Ricordati di "; echo "<a href='logout.php'>sloggare</a>"; echo " quando ha
       echo "<a href='login.php'>loggati</a>.";
       }
   ?>
+  <br>Premendo <a href='descrizione.php'>qui</a> puoi avere la descrizione del mio progetto.
   </p>
   </div>
   </div>
