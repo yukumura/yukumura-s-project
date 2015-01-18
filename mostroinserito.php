@@ -16,6 +16,11 @@ include('database_connect.php');
     <div id="formattazione_testo">
     <h4>
     <?php
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Come funziona? Prelevo i dati inseriti dal form, controllo nel database se esiste già un racconto con lo stesso nome, inserito dallo stesso utente.//  
+//Nel caso in cui non esista un racconto con lo stesso nome, viene creato. Nel caso in cui esista un racconto con lo stesso nome, ma l'autore        //
+//è diverso, viene segnalato l'errore e il racconto non viene modificato. Diversamente, il racconto viene modificato.                                //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     $titolo=$_POST['titolo'];
     $descrizione=$_POST['descrizione'];
@@ -48,7 +53,7 @@ include('database_connect.php');
                 $result = $mysqli->query($query);
                 $errore=2;
             }else{
-                //echo "Non sei tu l'autore del racconto. <br>";
+                echo "Non sei tu l'autore del racconto. <br>";
                     $errore=1;
                 }
     }else{
@@ -56,8 +61,6 @@ include('database_connect.php');
         //echo "Fin qui nessun problema<br>";
     }
     
-                //echo"<br>L'id e':";
-                //echo $_GET['id'];
                 if(isset($_GET['id']) and $errore!=2){
                     $query="delete from creature where id ='$_GET[id]'";
                     $result = $mysqli->query($query);

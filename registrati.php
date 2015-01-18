@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<!-- Form per registrarsi. Abbastanza semplice, dato che la mia idea era che qualsiasi persona possa registrarsi. I dati prelevati da qui verranno utilizzati in registrazione.php-->
 <?php
 include('cuore.php');
 include('database_connect.php');

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <!-- Qui vengono inseriti le informazioni del racconto -->
 <?php
     include('cuore.php');
     include('database_connect.php');

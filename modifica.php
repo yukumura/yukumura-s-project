@@ -4,7 +4,7 @@
 include('cuore.php');
 include('database_connect.php');
 ?>
-
+<!-- Qui vengono modificati i dati del racconto -->
 <html>
 
   <head>

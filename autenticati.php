@@ -9,6 +9,12 @@
     <div id="formattazione_testo">
     <h4>
     <?php
+///////////////////////////////////////////////////////////////////////////////////
+//Come funziona? Prelevo i dati inseriti dal form, controllo nel database se è  //
+//già presente un utente registrato così. Se esiste, l'utente effettua il login//
+//altrimenti viene segnalato l'errore.                                        //
+///////////////////////////////////////////////////////////////////////////////
+
     include('cuore.php');
     include('database_connect.php');
     $errore=0;
@@ -21,7 +27,6 @@ if($username=='' or $pswd== '' ){
 }
 
 if($errore!=1){
-////////////////////////////////////////////////////////////////////////////
 $pswd = md5($pswd);
 $query="SELECT COUNT(*) as total FROM iscritti WHERE username LIKE '$username' and password='$pswd'";
 
@@ -32,18 +37,11 @@ $row = $result->fetch_assoc();
     $result = $mysqli->query($query);
     $row = $result->fetch_assoc();
 
-    //$query="SELECT id as risultato FROM iscritti WHERE username='$username' and password='$pswd'";
-    //$result = $mysqli->query($query);
-
-    //$row = $result->fetch_assoc();
-    
     $query="SELECT username as risultato FROM iscritti WHERE username LIKE '$username'";
     $result = $mysqli->query($query);
     $row = $result->fetch_assoc();
     $username = $row['risultato'];
     
-    //echo $row['risultato']. " valore dell'id. <br>";
-	//$_SESSION['userid']=$userid;
     echo "Login effettuato. <br> Bentornato $username, adesso sei loggato nel sito e puoi accedere a tutti i servizi.<br><br>";
     }else echo "I dati da te inseriti non corrispondono a nessun utente registrato. Riprova.";
 

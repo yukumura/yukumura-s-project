@@ -4,7 +4,7 @@ include('cuore.php');
 include('database_connect.php');
 ?>
 <html>
-
+<!-- Form da cui prelevo i dati per effettuare il login -->
   <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="mystyle.css" media="screen">

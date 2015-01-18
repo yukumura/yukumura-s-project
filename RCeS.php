@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<!-- Pagina aggiuntiva al sito. Informazioni che ho trovato e che ho voluto mettere per rendere il sito più realistico -->
 <?php
 include('cuore.php');
 include('database_connect.php');

@@ -1,4 +1,5 @@
 <?php
+// dati per loggare sul server pubblico
 $ip = "localhost";
 $user = "cicilloniAlberto";
 $password = "scimmia454";

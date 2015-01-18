@@ -4,13 +4,14 @@
 include('cuore.php');
 include('database_connect.php');
 ?>
-
+<!-- Selezionato un racconto, vengono prelevate dal database tutte le informazioni inerenti, eseguendo poi un controllo fra l'autore del racconto e l'utente
+     che sta controllando il racconto. Se i due combaciano, apparirà il bottone di edit per il racconto, altrimenti no. -->
 <html>
 
   <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="mystyle.css" media="screen">
-    <title>Guide e strategie per combattere ogni tipo di essere soprannaturale - RCeS</title>
+    <title>Guide e strategie per combattere ogni tipo di essere soprannaturale</title>
   </head>
   
   <body>
@@ -27,7 +28,6 @@ include('database_connect.php');
 	<?php
 	
 	$query="SELECT descrizione FROM creature where nome = '$_GET[id]'";
-	//"SELECT username as risultato FROM iscritti WHERE username LIKE '$username'";
     $result = $mysqli->query($query);
     while ($row = mysqli_fetch_row($result)) {
 		echo "<p>$row[0]";

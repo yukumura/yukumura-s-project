@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-//include('cuore.php');
+//Controllo se una sessione è già aperta
 if (!isset($_SESSION)) {
       session_start();
     }else echo "sessione già aperta";

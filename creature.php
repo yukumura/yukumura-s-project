@@ -4,7 +4,7 @@ include('cuore.php');
 include('database_connect.php');
 ?>
 <html>
-  
+  <!-- Pagina dove vengono visualizzati i racconti inseriti ordinati alfabeticamente -->
   <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="mystyle.css" media="screen">
