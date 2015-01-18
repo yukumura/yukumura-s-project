@@ -44,6 +44,7 @@ include ('database_connect.php');
     <li>Credenziali di autenticazione e link alla homepage:<br> account: yukumura<br>password: asdasdasd<br>Tuttavia è possibile registrare un nuovo account e avere i privilegi di inserimento e/o modificazione di un racconto.</li>
     Tool utilizzati: piattaforma cloud9 e Mozilla Firefox come browser.
     </div>
+    </div>
     <?php
 include('piepagina.php');
 ?>
