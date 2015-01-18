@@ -45,6 +45,7 @@ include ('database_connect.php');
     Tool utilizzati: piattaforma cloud9 e Mozilla Firefox come browser.
     </div>
     </div>
+    </div>
     <?php
 include('piepagina.php');
 ?>
