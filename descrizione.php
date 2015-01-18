@@ -43,6 +43,7 @@ include ('database_connect.php');
     <li>Credenziali di autenticazione e link alla homepage:<br> account: yukumura<br>password: asdasdasd<br>Tuttavia è possibile registrare un nuovo account e avere i privilegi di inserimento e/o modificazione di un racconto.</li></div>
     </div>
     </div>
+    </div>
     <?php
 include('piepagina.php');
 ?>
