@@ -24,7 +24,8 @@ include ('database_connect.php');
    </div>
 
     <div id="content">
-     <p><em>Il sito non è altro che una semplice raccolta online di qualsiasi racconto inserito dall'utente per quanto riguarda argomenti sovrannaturali. I racconti inseriti possono essere visualizzati da tutti, ma possono essere modificati solo ed esclusivamente dall'autore del racconto. In fondo alla pagina, dopo aver effettuato il login, è possibile sapere quanti racconti sono stati inseriti.<br>
+     <p><em>Tool utilizzati: piattaforma cloud9 e Mozilla Firefox come browser.<br>
+             Il sito non è altro che una semplice raccolta online di qualsiasi racconto inserito dall'utente per quanto riguarda argomenti sovrannaturali. I racconti inseriti possono essere visualizzati da tutti, ma possono essere modificati solo ed esclusivamente dall'autore del racconto. In fondo alla pagina, dopo aver effettuato il login, è possibile sapere quanti racconti sono stati inseriti.<br>
              Attraverso il sito si può accedere effettuando il login dalla sezione apposita, oppure in fondo alla pagina è possibile trovare il login "veloce".
          <br>Nel sito è possibile:
     <div class="prog">
