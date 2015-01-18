@@ -24,7 +24,7 @@ include ('database_connect.php');
    </div>
 
     <div id="content">
-     <p><em>Tool utilizzati: piattaforma cloud9 e Mozilla Firefox come browser.<br>
+     <p><em>
              Il sito non è altro che una semplice raccolta online di qualsiasi racconto inserito dall'utente per quanto riguarda argomenti sovrannaturali. I racconti inseriti possono essere visualizzati da tutti, ma possono essere modificati solo ed esclusivamente dall'autore del racconto. In fondo alla pagina, dopo aver effettuato il login, è possibile sapere quanti racconti sono stati inseriti.<br>
              Attraverso il sito si può accedere effettuando il login dalla sezione apposita, oppure in fondo alla pagina è possibile trovare il login "veloce".
          <br>Nel sito è possibile:
@@ -43,6 +43,7 @@ include ('database_connect.php');
     <li>Almeno una funzionalità ajax: Sono presenti diversi bottoni che utilizzano javascript per ritornare nelle pagine precedenti</li>
     <li>Credenziali di autenticazione e link alla homepage:<br> account: yukumura<br>password: asdasdasd<br>Tuttavia è possibile registrare un nuovo account e avere i privilegi di inserimento e/o modificazione di un racconto.</li></div>
     </div>
+    Tool utilizzati: piattaforma cloud9 e Mozilla Firefox come browser.<br>
     <?php
 include('piepagina.php');
 ?>
