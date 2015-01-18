@@ -42,7 +42,7 @@ include ('database_connect.php');
     <li>Almeno una transazione: nel file "registrazione.php" è possibile notare la transazione per quanto riguarda l'inserimento nel database di un nuovo utente</li>
     <li>Almeno una funzionalità ajax: Sono presenti diversi bottoni che utilizzano javascript per ritornare nelle pagine precedenti</li>
     <li>Credenziali di autenticazione e link alla homepage:<br> account: yukumura<br>password: asdasdasd<br>Tuttavia è possibile registrare un nuovo account e avere i privilegi di inserimento e/o modificazione di un racconto.</li>
-    Tool utilizzati: piattaforma cloud9 e Mozilla Firefox come browser.
+    Tool utilizzati: piattaforma cloud9 e Mozilla Firefox come browser.</em>
     </div>
     </div>
     </div>
