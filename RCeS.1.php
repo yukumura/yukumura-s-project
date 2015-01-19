@@ -8,11 +8,18 @@ include('database_connect.php');
 <html>
 
   <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8">
+    <title>Guide e strategie per combattere ogni tipo di essere soprannaturale - Creature</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" type="text/css" href="mystyle.css" media="screen">
-    <title>Guide e strategie per combattere ogni tipo di essere soprannaturale - RCeS</title>
-  </head>
-  
+    <script>
+    $(function() {
+        $(".segnalibro").accordion();});
+    </script>
+</head>
   <body>
    
      <?php
