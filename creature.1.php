@@ -23,6 +23,18 @@ include('database_connect.php');
     <div class="titolo">
      <h1>Creature</h1>
    </div>
+   
+   <div id="content">
+<p>
+<?php
+  if(isset($_SESSION['username'])) {
+	echo "Se vuoi inserire un articolo premi <a href='inseriscicreature.php'><u>Qui</u></a>";
+	}else{
+      echo "Devi essere registrato per poter inserire un articolo. ";
+      echo "<a href='registrati.php'>Registrati</a>";
+      echo " oppure ";
+      echo "<a href='login.php'>loggati</a>.";
+      }
 
     <script>
     $(function() {
