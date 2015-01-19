@@ -40,7 +40,8 @@ include('database_connect.php');
     //$mysqli->close();
   ?>
 </p>  
-      </div>
+
+<!--      </div> > -->
 
 
     <script>
@@ -452,5 +453,6 @@ include('database_connect.php');
 include('piepagina.php');
 ?>
 
+</div>
 </body>
 </html>
