@@ -25,7 +25,7 @@ include('database_connect.php');
     */?>
 
     <div id="segnalibro">
-     <div class="segnalibro">
+     <!-- <div class="segnalibro"> -->
 
         <h3>Section 1</h3>
         <div>
