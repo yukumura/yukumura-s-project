@@ -17,7 +17,7 @@ include('database_connect.php');
     <link rel="stylesheet" type="text/css" href="mystyle.css" media="screen">
     <script>
     $(function() {
-        $(".segnalibro").accordion();});
+        $(".menu").accordion();});
     </script>
 </head>
   <body>
@@ -26,7 +26,7 @@ include('database_connect.php');
   include('intestazione.html');
       ?>
 
-   <div class="titolo">
+   <div class="menu">
      <h1>Rito, Culto e Sacrificio</h1>
    </div>
 
