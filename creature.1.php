@@ -31,7 +31,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'a%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -46,7 +46,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'b%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -61,7 +61,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'c%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -76,7 +76,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'd%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -91,7 +91,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'e%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -106,7 +106,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'f%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -121,7 +121,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'g%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -136,7 +136,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'h%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -151,7 +151,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'i%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -166,7 +166,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'j%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -181,7 +181,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'k%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -196,7 +196,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'l%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -211,7 +211,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'm%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -226,7 +226,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'n%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -241,7 +241,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'o%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -256,7 +256,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'p%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -271,7 +271,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'q%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -286,7 +286,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'r%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -301,7 +301,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 's%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -316,7 +316,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 't%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -331,7 +331,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'u%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -346,7 +346,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'v%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -376,7 +376,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'x%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -391,7 +391,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'y%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
@@ -406,7 +406,7 @@ include('database_connect.php');
         <div>
         <p>
             <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
+                $query="SELECT nome FROM creature where nome like 'z%'";
                 $result = $mysqli->query($query);
                 
                 while ($row = mysqli_fetch_row($result)) {
