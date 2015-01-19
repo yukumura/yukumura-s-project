@@ -12,10 +12,6 @@ include('database_connect.php');
     <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
     <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" type="text/css" href="mystyle.css" media="screen">
-    <script>
-    $(function() {
-        $("#segnalibro").accordion();});
-    </script>
 </head>
 
 <body>
@@ -24,6 +20,10 @@ include('database_connect.php');
     include('intestazione.html');
     ?>
 
+    <script>
+    $(function() {
+        $("#segnalibro").accordion();});
+    </script>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div id="segnalibro">
      <!-- <div class="segnalibro"> -->
