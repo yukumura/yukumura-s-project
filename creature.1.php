@@ -27,7 +27,7 @@ include('database_connect.php');
     <div id="segnalibro">
      <!-- <div class="segnalibro"> -->
 
-        <h3>Section 1</h3>
+        <h3>Racconti con la lettera A</h3>
         <div>
         <p>
             <?php
@@ -43,7 +43,7 @@ include('database_connect.php');
         </div>
         
         
-<h3>Section 2</h3>
+<h3>Racconti con la lettera B</h3>
 <div>
 <p>
 Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
@@ -52,7 +52,7 @@ velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
 suscipit faucibus urna.
 </p>
 </div>
-<h3>Section 3</h3>
+<h3>Racconti con la lettera C</h3>
 <div>
 <p>
 Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
@@ -66,7 +66,8 @@ lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
 <li>List item three</li>
 </ul>
 </div>
-<h3>Section 4</h3>
+
+<h3>Racconti con la lettera D</h3>
 <div>
 <p>
 Cras dictum. Pellentesque habitant morbi tristique senectus et netus
@@ -80,6 +81,26 @@ Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
 inceptos himenaeos.
 </p>
 </div>
+
+<h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+
+
+
+
 </div>
 </body>
 </html>
