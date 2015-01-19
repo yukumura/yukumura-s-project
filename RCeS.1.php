@@ -17,7 +17,7 @@ include('database_connect.php');
     <link rel="stylesheet" type="text/css" href="mystyle.css" media="screen">
     <script>
     $(function() {
-        $(".menu").accordion();});
+        $("#segnalibro").accordion();});
     </script>
 </head>
   <body>
@@ -52,9 +52,9 @@ include('database_connect.php');
 		Si definisce <b>offerta</b> ogni atto in cui si presenta qualcosa a un essere soprannaturale e <b>sacrificio</b> un offerta accompagnata dall'uccisione rituale di una vittima.<br>
 		Dal latino <i>sacrificium</i> (sacer = sacro e facere = fare) il termine <b>sacrificio</b> esprime anche il concetto di un atto religioso, quello di santificare o consacrare un oggetto.</em></p>
 	<br>
-	<div class="menu">
+	<div id="segnalibro">
      	<h3><b>Materiale dell'oblazione</b></h3>
-   </div>
+   
 	<p><em>Qualunque cosa abbia valore per gli essere umani può costituire oggetto di sacrificio;<br>
 		includendo oggetti inanimati è possibile classificare gli oggetti sacrificali in offerte incruente e <b>cruente</b>.<br>
 		Le <b>offerte incruente</b> comprendono, in primo luogo, materiali vegetali.<br>
@@ -67,6 +67,8 @@ include('database_connect.php');
 		Per i <b>coltivatori</b> il sangue riveste il ruolo determinante di sostanza carica di potere che porta la fertilità; viene sparso sui campi per favorire il raccolto delle messi. La <i>caccia di teste, il cannibalismo e il sacrificio umano</i> fanno parte dello stesso complesso di idee e di riti; il <b>sacrificio umano viene considerato anche un mezzo per mantenere l'ordine cosmico.</b><br>
 		I sacrifici di sangue consistono essenzialmente in animali domestici: tra i <b>pastori</b>, pecore, capre, bovini, maiali, polli; tra i <b>nomadi</b>, anche renne, cavalli e cammelli, mentre i maiali sono considerati come animali impuri e non vengono utilizzati. I cani vengono sacrificati soprattutto per procurare compagnia ai defunti.</em></p>
 		<br>
+	</div>
+	
 		<h3><b>Sostituti</b></h3>
 		<p><em>I sacrifici cruenti, soprattutto quelli in cui vengono offerti esseri umani, furono spesso <b>sostituiti in una fase successiva con altri doni sacrificali: animali, vegetali</b> (primizie o focacce sacrificali) o denaro. Un'altra forma di sostituzione è quella operata tramite rappresentazioni, come le statuette di creta sostitutive di esseri umani che venivano seppellite con un individuo defunto di alto rango e mandate con lui nell'oltretomba (Egitto, Cina).</em></p>
 		<br>
