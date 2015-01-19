@@ -96,7 +96,262 @@ inceptos himenaeos.
             ?>    
         </p>
         </div>
+       
+       <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
         
+        <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Section 1</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+         
 
 
 
