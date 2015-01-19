@@ -46,7 +46,7 @@ include('database_connect.php');
 
     <script>
      $(function() {
-        $(".segnalibro" ).accordion({collapsible: true});
+        $("#segnalibro" ).accordion({collapsible: true});
         });
     </script>
     <br><br><br>
