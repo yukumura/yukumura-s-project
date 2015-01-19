@@ -19,7 +19,7 @@
 
         <label for="descrizione">Descrizione</label>
         <textarea rows="80" cols="150"
-        name="descrizione">Inserisci qui la tua storia</textarea> 
+        name="descrizione" placeholder="Inserisci il testo qui"></textarea> 
 
 	<input type="submit" name="inserisci" value="Inserisci">
      </form>
