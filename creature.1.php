@@ -19,9 +19,10 @@ include('database_connect.php');
 </head>
 
 <body>
-  <?php
+  
+  <?php/*
     include('intestazione.html');
-    ?>
+    */?>
 
     <div id="segnalibro">
      <div class="segnalibro">
