@@ -20,6 +20,8 @@ include('database_connect.php');
     include('intestazione.html');
     ?>
     
+    <div id="home"></div>
+    
     <div class="titolo">
      <h1>Creature</h1>
    </div>
@@ -444,7 +446,7 @@ include('database_connect.php');
 </div>
 
 <div class="segnalibro">
-    <a href="#segnalibro">Torna su</a>
+    <a href="#home">Torna su</a>
     </div>
     
 <?php
