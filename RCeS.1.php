@@ -30,10 +30,6 @@ include('database_connect.php');
      <h1>Rito, Culto e Sacrificio</h1>
    </div>
 
-   <div id="sidebar1">
-       
-    </div>
-   <div id="sidebar2"></div>
    <div id="content">
    	<div class="rces">
      <p><em>Il <b>culto</b> è l'insieme dei riti, delle usanze, delle preghiere con cui si esprime il sentimento religioso di un popolo.<br>
