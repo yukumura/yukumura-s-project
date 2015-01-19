@@ -448,11 +448,12 @@ include('database_connect.php');
 <div class="segnalibro">
     <a href="#home">Torna su</a>
     </div>
-    
+
+</div>
+
 <?php
 include('piepagina.php');
 ?>
 
-</div>
 </body>
 </html>
