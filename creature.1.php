@@ -20,9 +20,9 @@ include('database_connect.php');
 
 <body>
   
-  <?php/*
+  <?php
     include('intestazione.html');
-    */?>
+    ?>
 
     <div id="segnalibro">
      <!-- <div class="segnalibro"> -->
