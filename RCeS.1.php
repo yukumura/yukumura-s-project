@@ -81,6 +81,7 @@ include('database_connect.php');
 			Nella vita dell'individuo, nascita, pubertà, matrimonio e morte sono spesso occasioni di sacrificio.<br>
 			La commemorazione annuale di un evento storico può diventare occasione di sacrificio.</em></p>
    		</div>
+   	</div>
 </div>
 
 <?php
