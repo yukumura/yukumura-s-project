@@ -27,62 +27,7 @@ include('database_connect.php');
     <div id="segnalibro">
      <!-- <div class="segnalibro"> -->
 
-        <h3>Racconti con la lettera A</h3>
-        <div>
-        <p>
-            <?php
-                $query="SELECT nome FROM creature where nome like 'w%'";
-                $result = $mysqli->query($query);
-                
-                while ($row = mysqli_fetch_row($result)) {
-                $nome = $row[0];
-                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
-        }
-            ?>    
-        </p>
-        </div>
-        
-        
-<h3>Racconti con la lettera B</h3>
-<div>
-<p>
-Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-suscipit faucibus urna.
-</p>
-</div>
-<h3>Racconti con la lettera C</h3>
-<div>
-<p>
-Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-</p>
-<ul>
-<li>List item one</li>
-<li>List item two</li>
-<li>List item three</li>
-</ul>
-</div>
-
-<h3>Racconti con la lettera D</h3>
-<div>
-<p>
-Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-mauris vel est.
-</p>
-<p>
-Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-inceptos himenaeos.
-</p>
-</div>
-
-<h3>Section 1</h3>
+        <h3>Racconti con la A</h3>
         <div>
         <p>
             <?php
@@ -97,7 +42,7 @@ inceptos himenaeos.
         </p>
         </div>
        
-       <h3>Section 1</h3>
+       <h3>Racconti con la B</h3>
         <div>
         <p>
             <?php
@@ -112,7 +57,7 @@ inceptos himenaeos.
         </p>
         </div>
         
-        <h3>Section 1</h3>
+        <h3>Racconti con la C</h3>
         <div>
         <p>
             <?php
@@ -127,7 +72,7 @@ inceptos himenaeos.
         </p>
         </div>
         
-        <h3>Section 1</h3>
+        <h3>Racconti con la D</h3>
         <div>
         <p>
             <?php
@@ -142,7 +87,7 @@ inceptos himenaeos.
         </p>
         </div>
         
-        <h3>Section 1</h3>
+        <h3>Racconti con la E</h3>
         <div>
         <p>
             <?php
@@ -157,7 +102,7 @@ inceptos himenaeos.
         </p>
         </div>
         
-        <h3>Section 1</h3>
+        <h3>Racconti con la F</h3>
         <div>
         <p>
             <?php
@@ -172,7 +117,7 @@ inceptos himenaeos.
         </p>
         </div>
         
-        <h3>Section 1</h3>
+        <h3>Racconti con la G</h3>
         <div>
         <p>
             <?php
@@ -187,7 +132,7 @@ inceptos himenaeos.
         </p>
         </div>
         
-        <h3>Section 1</h3>
+        <h3>Racconti con la H</h3>
         <div>
         <p>
             <?php
@@ -202,7 +147,7 @@ inceptos himenaeos.
         </p>
         </div>
         
-        <h3>Section 1</h3>
+        <h3>Racconti con la I</h3>
         <div>
         <p>
             <?php
@@ -217,7 +162,7 @@ inceptos himenaeos.
         </p>
         </div>
         
-        <h3>Section 1</h3>
+        <h3>Racconti con la J</h3>
         <div>
         <p>
             <?php
@@ -232,7 +177,7 @@ inceptos himenaeos.
         </p>
         </div>
         
-        <h3>Section 1</h3>
+        <h3>Racconti con la K</h3>
         <div>
         <p>
             <?php
@@ -247,7 +192,7 @@ inceptos himenaeos.
         </p>
         </div>
         
-        <h3>Section 1</h3>
+        <h3>Racconti con la L</h3>
         <div>
         <p>
             <?php
@@ -262,7 +207,7 @@ inceptos himenaeos.
         </p>
         </div>
         
-        <h3>Section 1</h3>
+        <h3>Racconti con la M</h3>
         <div>
         <p>
             <?php
@@ -277,7 +222,7 @@ inceptos himenaeos.
         </p>
         </div>
         
-        <h3>Section 1</h3>
+        <h3>Racconti con la N</h3>
         <div>
         <p>
             <?php
@@ -292,7 +237,7 @@ inceptos himenaeos.
         </p>
         </div>
         
-        <h3>Section 1</h3>
+        <h3>Racconti con la O</h3>
         <div>
         <p>
             <?php
@@ -307,7 +252,7 @@ inceptos himenaeos.
         </p>
         </div>
         
-        <h3>Section 1</h3>
+        <h3>Racconti con la P</h3>
         <div>
         <p>
             <?php
@@ -322,7 +267,7 @@ inceptos himenaeos.
         </p>
         </div>
         
-        <h3>Section 1</h3>
+        <h3>Racconti con la Q</h3>
         <div>
         <p>
             <?php
@@ -337,7 +282,7 @@ inceptos himenaeos.
         </p>
         </div>
         
-        <h3>Section 1</h3>
+        <h3>Racconti con la R</h3>
         <div>
         <p>
             <?php
@@ -352,9 +297,126 @@ inceptos himenaeos.
         </p>
         </div>
          
+        <h3>Racconti con la S</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+    
+        <h3>Racconti con la T</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
 
+        <h3>Racconti con la U</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
 
+        <h3>Racconti con la V</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
 
+        <h3>Racconti con la W</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Racconti con la X</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Racconti con la Y</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
+        <h3>Racconti con la Z</h3>
+        <div>
+        <p>
+            <?php
+                $query="SELECT nome FROM creature where nome like 'w%'";
+                $result = $mysqli->query($query);
+                
+                while ($row = mysqli_fetch_row($result)) {
+                $nome = $row[0];
+                echo "<li><a href='visualizzazione.php?id=$nome'>$row[0]</a></li>";
+        }
+            ?>    
+        </p>
+        </div>
+        
 
 </div>
 </body>
