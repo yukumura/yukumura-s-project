@@ -52,7 +52,9 @@ include('database_connect.php');
 		Si definisce <b>offerta</b> ogni atto in cui si presenta qualcosa a un essere soprannaturale e <b>sacrificio</b> un offerta accompagnata dall'uccisione rituale di una vittima.<br>
 		Dal latino <i>sacrificium</i> (sacer = sacro e facere = fare) il termine <b>sacrificio</b> esprime anche il concetto di un atto religioso, quello di santificare o consacrare un oggetto.</em></p>
 	<br>
-	<h3><b>Materiale dell'oblazione</b></h3>
+	<div class="menu">
+     	<h3><b>Materiale dell'oblazione</b></h3>
+   </div>
 	<p><em>Qualunque cosa abbia valore per gli essere umani può costituire oggetto di sacrificio;<br>
 		includendo oggetti inanimati è possibile classificare gli oggetti sacrificali in offerte incruente e <b>cruente</b>.<br>
 		Le <b>offerte incruente</b> comprendono, in primo luogo, materiali vegetali.<br>
