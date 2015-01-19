@@ -44,11 +44,13 @@ include('database_connect.php');
 
 	<div id="form1">
 	<?php
-  if(($_SESSION['username'])==$row[0]) {
-      $nome = $_GET['id'];
-	echo "<form><input type=\"button\" onclick=\"window.location='modifica.php?id=$nome'\" value=\"Modifica l'articolo\"></form>";
-	}else;
-     
+  
+  if(isset($_SESSION['username'])) {
+      if(($_SESSION['username'])==$row[0]) {
+          $nome = $_GET['id'];
+    	echo "<form><input type=\"button\" onclick=\"window.location='modifica.php?id=$nome'\" value=\"Modifica l'articolo\"></form>";
+    	}
+  }
       ?>
       </div>
       <div id="form2"
