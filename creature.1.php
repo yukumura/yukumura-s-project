@@ -35,6 +35,12 @@ include('database_connect.php');
       echo " oppure ";
       echo "<a href='login.php'>loggati</a>.";
       }
+      
+    //$mysqli->close();
+  ?>
+</p>  
+      </div>
+
 
     <script>
     $(function() {
