@@ -14,7 +14,7 @@ include('database_connect.php');
     <link rel="stylesheet" type="text/css" href="mystyle.css" media="screen">
     <script>
     $(function() {
-        $(".segnalibro").accordion();});
+        $("#segnalibro").accordion();});
     </script>
 </head>
 
