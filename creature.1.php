@@ -15,13 +15,12 @@ include('database_connect.php');
 </head>
 
 <body>
-  
-  <?php
-    include('intestazione.html');
-    ?>
-    
     <div id="home"></div>
     
+    <?php
+    include('intestazione.html');
+    ?>
+
     <div class="titolo">
      <h1>Creature</h1>
    </div>
