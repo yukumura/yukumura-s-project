@@ -46,6 +46,7 @@ $row = $result->fetch_assoc();
     }else{ 
             echo "I dati da te inseriti non corrispondono a nessun utente registrato. Riprova.";
             $errore=1;
+    }
 }
     if($errore!=1){
     $_SESSION['username']=$username;
