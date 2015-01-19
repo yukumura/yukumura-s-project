@@ -24,6 +24,7 @@ include('database_connect.php');
     include('intestazione.html');
     ?>
 
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div id="segnalibro">
      <!-- <div class="segnalibro"> -->
 
