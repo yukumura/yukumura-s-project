@@ -53,7 +53,7 @@ include('database_connect.php');
     <div id="segnalibro">
      <!-- <div class="segnalibro"> -->
 
-        <h3>Racconti con la A</h3>
+        <h3>Articoli con la A</h3>
         <div>
         <p>
             <?php
@@ -68,7 +68,7 @@ include('database_connect.php');
         </p>
         </div>
        
-       <h3>Racconti con la B</h3>
+       <h3>Articoli con la B</h3>
         <div>
         <p>
             <?php
@@ -83,7 +83,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la C</h3>
+        <h3>Articoli con la C</h3>
         <div>
         <p>
             <?php
@@ -98,7 +98,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la D</h3>
+        <h3>Articoli con la D</h3>
         <div>
         <p>
             <?php
@@ -113,7 +113,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la E</h3>
+        <h3>Articoli con la E</h3>
         <div>
         <p>
             <?php
@@ -128,7 +128,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la F</h3>
+        <h3>Articoli con la F</h3>
         <div>
         <p>
             <?php
@@ -143,7 +143,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la G</h3>
+        <h3>Articoli con la G</h3>
         <div>
         <p>
             <?php
@@ -158,7 +158,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la H</h3>
+        <h3>Articoli con la H</h3>
         <div>
         <p>
             <?php
@@ -173,7 +173,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la I</h3>
+        <h3>Articoli con la I</h3>
         <div>
         <p>
             <?php
@@ -188,7 +188,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la J</h3>
+        <h3>Articoli con la J</h3>
         <div>
         <p>
             <?php
@@ -203,7 +203,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la K</h3>
+        <h3>Articoli con la K</h3>
         <div>
         <p>
             <?php
@@ -218,7 +218,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la L</h3>
+        <h3>Articoli con la L</h3>
         <div>
         <p>
             <?php
@@ -233,7 +233,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la M</h3>
+        <h3>Articoli con la M</h3>
         <div>
         <p>
             <?php
@@ -248,7 +248,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la N</h3>
+        <h3>Articoli con la N</h3>
         <div>
         <p>
             <?php
@@ -263,7 +263,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la O</h3>
+        <h3>Articoli con la O</h3>
         <div>
         <p>
             <?php
@@ -278,7 +278,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la P</h3>
+        <h3>Articoli con la P</h3>
         <div>
         <p>
             <?php
@@ -293,7 +293,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la Q</h3>
+        <h3>Articoli con la Q</h3>
         <div>
         <p>
             <?php
@@ -308,7 +308,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la R</h3>
+        <h3>Articoli con la R</h3>
         <div>
         <p>
             <?php
@@ -323,7 +323,7 @@ include('database_connect.php');
         </p>
         </div>
          
-        <h3>Racconti con la S</h3>
+        <h3>Articoli con la S</h3>
         <div>
         <p>
             <?php
@@ -338,7 +338,7 @@ include('database_connect.php');
         </p>
         </div>
     
-        <h3>Racconti con la T</h3>
+        <h3>Articoli con la T</h3>
         <div>
         <p>
             <?php
@@ -353,7 +353,7 @@ include('database_connect.php');
         </p>
         </div>
 
-        <h3>Racconti con la U</h3>
+        <h3>Articoli con la U</h3>
         <div>
         <p>
             <?php
@@ -368,7 +368,7 @@ include('database_connect.php');
         </p>
         </div>
 
-        <h3>Racconti con la V</h3>
+        <h3>Articoli con la V</h3>
         <div>
         <p>
             <?php
@@ -383,7 +383,7 @@ include('database_connect.php');
         </p>
         </div>
 
-        <h3>Racconti con la W</h3>
+        <h3>Articoli con la W</h3>
         <div>
         <p>
             <?php
@@ -398,7 +398,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la X</h3>
+        <h3>Articoli con la X</h3>
         <div>
         <p>
             <?php
@@ -413,7 +413,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la Y</h3>
+        <h3>Articoli con la Y</h3>
         <div>
         <p>
             <?php
@@ -428,7 +428,7 @@ include('database_connect.php');
         </p>
         </div>
         
-        <h3>Racconti con la Z</h3>
+        <h3>Articoli con la Z</h3>
         <div>
         <p>
             <?php
