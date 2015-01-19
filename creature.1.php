@@ -28,7 +28,7 @@ include('database_connect.php');
     $(function() {
         $("#segnalibro").accordion();});
     </script>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br>
     <div id="segnalibro">
      <!-- <div class="segnalibro"> -->
 
