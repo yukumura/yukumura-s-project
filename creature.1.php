@@ -442,5 +442,14 @@ include('database_connect.php');
         
 
 </div>
+
+<div class="segnalibro">
+    <a href="#segnalibro">Torna su</a>
+    </div>
+    
+<?php
+include('piepagina.php');
+?>
+
 </body>
 </html>
