@@ -47,7 +47,7 @@ include('database_connect.php');
   if(($_SESSION['username'])==$row[0]) {
       $nome = $_GET['id'];
 	echo "<form><input type=\"button\" onclick=\"window.location='modifica.php?id=$nome'\" value=\"Modifica l'articolo\"></form>";
-	}
+	}else;
      
       ?>
       </div>
