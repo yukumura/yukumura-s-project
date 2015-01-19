@@ -50,12 +50,14 @@ $row = $result->fetch_assoc();
 }
     if($errore!=1){
     $_SESSION['username']=$username;
-    header("refresh:10;url='index.php'");
-    echo "<form><input type=\"button\" onclick=\"window.location='index.php'\" value=\"Ritorna alla Home\"></form>";
     $mysqli->close();
     /*CLOSE THE SESSION WITH USER DATA*/
     session_write_close();
     }
+
+    header("refresh:10;url='index.php'");
+    echo "<form><input type=\"button\" onclick=\"window.location='index.php'\" value=\"Ritorna alla Home\"></form>";
+    
 ?>
 </h4>
 </div>
