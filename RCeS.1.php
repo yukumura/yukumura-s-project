@@ -69,6 +69,7 @@ include('database_connect.php');
 		<br>
 	</div>
 	
+		<div id="segnalibro">
 		<h3><b>Sostituti</b></h3>
 		<p><em>I sacrifici cruenti, soprattutto quelli in cui vengono offerti esseri umani, furono spesso <b>sostituiti in una fase successiva con altri doni sacrificali: animali, vegetali</b> (primizie o focacce sacrificali) o denaro. Un'altra forma di sostituzione è quella operata tramite rappresentazioni, come le statuette di creta sostitutive di esseri umani che venivano seppellite con un individuo defunto di alto rango e mandate con lui nell'oltretomba (Egitto, Cina).</em></p>
 		<br>
@@ -79,7 +80,7 @@ include('database_connect.php');
 			La festa del Capodanno spesso non viene stabilità astronomicamente, ma in termini di anno vegetativo.<br>
 			Nella vita dell'individuo, nascita, pubertà, matrimonio e morte sono spesso occasioni di sacrificio.<br>
 			La commemorazione annuale di un evento storico può diventare occasione di sacrificio.</em></p>
-   	</div>
+   		</div>
 </div>
 
 <?php
